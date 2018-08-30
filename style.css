@@ -1,0 +1,103 @@
+*
+{
+    padding:0;
+    margin:0;
+}
+body,html{
+    width:100%;
+    height:100%;
+    font-size:16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:300;
+    line-height: 28px;
+    color:#666666;
+}
+.pimg1,.pimg2,.pimg3,.pimg4
+{
+  position:relative;
+ 
+ 
+  
+ 
+
+}
+.pimg1
+{
+    background: url(image1.jpg);
+    min-height:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.70;
+    background-attachment: fixed;
+}
+.pimg2
+{
+   background: url(image2.jpg);
+   min-height: 400px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   opacity: 0.70;
+   background-attachment: fixed;
+}
+.pimg3
+{
+    background: url(image3.jpg);
+    min-height:400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.70;
+    background-attachment: fixed;
+}
+.pimg4
+{
+    background: url(image4.jpg);
+    min-height:700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.70;
+    background-attachment: fixed;
+
+}
+.ptext
+{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#111;
+    font-size:27px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    
+}
+.border
+{
+    background:#111;
+    color:#fff;
+   
+    
+}
+.border .trans
+{
+    background: transparent;
+}
+.section
+{
+    text-align: center;
+    
+    padding:50px 80px;
+}
+.section-light
+{
+    background-color: #f4f4f4;
+    color:#666;
+}
+.section-dark
+{
+    background-color: #282e34;
+    color:#ddd;
+}
